@@ -1,0 +1,59 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.navbar {
+  background-color: #004d80;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Home component styles */
+.home-content {
+  text-align: center;
+  padding: 100px;
+}
+
+/* Client list component styles */
+.client-list {
+  margin: 20px;
+}
+
+.btn-primary {
+  background-color: #004d80;
+  border-color: #004d80;
+}
+
+.client-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+/* Client form component styles */
+.client-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .client-form {
+    max-width: 100%;
+  }
+}
