@@ -8,6 +8,7 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { FormComponent } from './form/form.component';
 import { NegritoComponent } from './negrito/negrito.component';
 import { FooterComponent } from './footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule, 
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

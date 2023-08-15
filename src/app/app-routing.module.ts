@@ -5,9 +5,6 @@ import { ClientesComponent } from './clientes/clientes.component';
 import { FormComponent } from './form/form.component';
 
 const routes: Routes = [
-  //{ path: '', redirectTo: '/clientes', pathMatch: 'full' },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  //{ path: '', redirectTo: '/cadastro', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
   { path: 'clientes', component: ClientesComponent },
   { path: 'cadastrar', component: FormComponent},
