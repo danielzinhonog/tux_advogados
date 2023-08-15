@@ -1,27 +1,27 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms'; // Import FormsModule
-import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
-import { ClientListComponent } from './client-list/client-list.component';
-import { ClientFormComponent } from './client-form/client-form.component';
-import { RouterModule } from '@angular/router';
+import { ClientesComponent } from './clientes/clientes.component';
+import { FormComponent } from './form/form.component';
+import { NegritoComponent } from './negrito/negrito.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ClientListComponent,
-    ClientFormComponent
+    ClientesComponent,
+    FormComponent,
+    NegritoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
-    RouterModule,
-    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

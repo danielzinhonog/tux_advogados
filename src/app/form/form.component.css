@@ -114,3 +114,68 @@ body, h1, h2, h3, p, ul, li, a {
     text-align: center;
     padding: 20px 0;
   }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  form button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #ccc;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  
+  .clientes-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cliente-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  
+  .cliente-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
