@@ -1,116 +1,133 @@
 body, h1, h2, h3, p, ul, li, a {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .logo img {
-    height: 50px;
-  }
-  
-  .nav-links li {
-    list-style: none;
-    margin: 0 15px;
-  }
-  
-  .nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  .nav-links a:hover {
-    color: #ff9900;
-  }
-  
-  .hero {
-    padding: 100px 0;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .btn-primary,
-  .btn-secondary {
-    display: inline-block;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .btn-primary {
-    background-color: #ff9900;
-    color: #fff;
-  }
-  
-  .btn-secondary {
-    background-color: #333;
-    color: #fff;
-    margin-left: 15px;
-  }
-  
-  .btn-primary:hover,
-  .btn-secondary:hover {
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .about,
-  .services,
-  .contact {
-    background-color: #f7f7f7;
-    padding: 80px 0;
-    text-align: center;
-  }
-  
-  .about h2,
-  .services h2,
-  .contact h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .about p,
-  .services p,
-  .contact p {
-    font-size: 18px;
-    margin-bottom: 30px;
-  }
-  
-  .footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: black;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  width: 1847px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo{
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links{
+  display: flex;
+  margin-top: -20px;
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9900;
+}
+
+.hero {
+  background-color:cornflowerblue;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary {
+  background-color: black;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: #fff;
+  margin-left: 15px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: #fff;
+  color: black;
+  border: solid 1px black;
+}
+
+.about
+.services,
+.contact {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.about h2,
+.services h2,
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.about p,
+.services p,
+.contact p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
