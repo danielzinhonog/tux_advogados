@@ -4,23 +4,24 @@
       <br>
       <section>
         <p>Preencha o formulário abaixo para Cadastrar:</p>
-        <form id="client-form" action="#" method="post">
+        <form #form="ngForm" (ngSubmit)="cadastro(form)">
 
           <label for="nome">Nome:</label>
-          <input type="text" id="nome" #nomeInput required>
+          <input type="text" id="nome" #nomeInput ngModel>
 
           <label for="sobrenome">Sobrenome:</label>
-          <input type="text" id="sobrenome" #sobrenomeInput required>
+          <input type="text" id="sobrenome" #sobrenomeInput ngModel>
 
           <label for="cpf">CPF:</label>
-          <input type="text" id="cpf" #cpfInput required>
+          <input type="text" id="cpf" #cpfInput ngModel>
 
           <label for="idade">Idade:</label>
-          <input type="number" id="idade" #idadeInput required>
+          <input type="number" id="idade" #idadeInput ngModel>
           <br><br>
 
           <label for="endereco">Endereço:</label>
-          <input type="text" id="endereco" #enderecoInput required>
+          <input type="text" id="endereco" #enderecoInput ngModel>
+
           <button (click)="cadastrarUsuario(nomeInput.value, sobrenomeInput.value, cpfInput.value, idadeInput.value, enderecoInput.value)">Cadastrar</button>
         </form>
     </section>
