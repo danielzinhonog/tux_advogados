@@ -7,22 +7,22 @@
         <form #form="ngForm" (ngSubmit)="cadastro(form)">
 
           <label for="nome">Nome:</label>
-          <input type="text" id="nome" #nomeInput ngModel>
+          <input name="nome" type="text" id="nome" #nomeInput required ngModel>
 
           <label for="sobrenome">Sobrenome:</label>
-          <input type="text" id="sobrenome" #sobrenomeInput ngModel>
+          <input name="sobrenome" type="text" id="sobrenome" #sobrenomeInput required ngModel>
 
           <label for="cpf">CPF:</label>
-          <input type="text" id="cpf" #cpfInput ngModel>
+          <input name="cpf" type="text" id="cpf" #cpfInput required ngModel>
 
           <label for="idade">Idade:</label>
-          <input type="number" id="idade" #idadeInput ngModel>
+          <input name="idade" type="number" id="idade" #idadeInput required ngModel>
           <br><br>
 
           <label for="endereco">Endereço:</label>
-          <input type="text" id="endereco" #enderecoInput ngModel>
+          <input name="endereco" type="text" id="endereco" #enderecoInput required ngModel>
 
-          <button (click)="cadastrarUsuario(nomeInput.value, sobrenomeInput.value, cpfInput.value, idadeInput.value, enderecoInput.value)">Cadastrar</button>
+          <button class="">Cadastrar</button>
         </form>
     </section>
   </div>
