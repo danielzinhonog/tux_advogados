@@ -1,20 +1,17 @@
 <section class="sessao">
 <br><br>
-<h3>Usuários Cadastrados:</h3>
+<h3>Clientes Cadastrados:</h3>
 <ul class="clientes-list">
   <li *ngFor="let usuario of usuarios" class="cliente-item">
     ID: {{ usuario.id }} | Nome: {{ usuario.nome }} {{ usuario.sobrenome }} | CPF: {{ usuario.cpf }} | Idade: {{ usuario.idade }} | Endereço: {{ usuario.endereco }}
   </li>
 </ul>
-
-<button (click)="obterUsuariosMaisVelhos()">Exibir Usuários com mais de 60 anos</button>
-
-<h3>Clientes Cadastrados:</h3>
-<ul class="clientes-list">
-  <li *ngFor="let cliente of usuarios" class="cliente-item">
-    ID: {{ cliente.id }} | Nome: {{ cliente.nome }} {{ cliente.sobrenome }} | CPF: {{ cliente.cpf }} | Idade: {{ cliente.idade }} | Endereço: {{ cliente.endereco }}
+<br><br>
+<h3>Clientes com mais de 60 anos de idade:</h3>
+<ul *ngFor="let usuario of usuarios" class="clientes-list">
+  <li *ngIf="usuario.idade > 60" class="cliente-item">
+    ID: {{ usuario.id }} | Nome: {{ usuario.nome }} {{ usuario.sobrenome }} | CPF: {{ usuario.cpf }} | Idade: {{ usuario.idade }} | Endereço: {{ usuario.endereco }}
   </li>
 </ul>
-<br>
-<br><br>
+<br><br><br><br><br><br><br><br><br>
 </section>

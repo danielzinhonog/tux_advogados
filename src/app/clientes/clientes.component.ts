@@ -9,6 +9,7 @@ import { Pessoas } from '../model/pessoas.model';
 })
 
 export class ClientesComponent implements OnInit {
+
   usuarios:Pessoas[] = [];
 
   constructor(private http: HttpClient){}
@@ -17,7 +18,7 @@ export class ClientesComponent implements OnInit {
     this.http.get<Pessoas[]>('http://localhost:3000/clientes').subscribe(results => this.usuarios = results);
   }
 
-  obterUsuariosMaisVelhos() {
-    return this.usuarios.filter(usuario => usuario.idade > 60);
+  obterUsuariosMaisVelhos(){
+    return this.usuarios.filter (cliente => cliente.idade > 60);
   }
 }
