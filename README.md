@@ -21,3 +21,7 @@ Configuração de uma API Fake com json-server:
 	Passo 02: Executar o comando: npm install -g json-server;
 	Passo 03: Acessar a pasta assets do projeto: cd src/assets;
 	Passo 04: Iniciar a api: json-server --watch db.json (Será gerado o arquivo db.json que será a base da api);
+
+
+//Executar o comando git clone https://github.com/ThyagoAssis/projeto_foto
+//Executar dentro da pasta do projeto o comando npm install 
