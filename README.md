@@ -15,3 +15,9 @@ Istalação do Bootstrap no projeto:
   	Passo 02: Executar pelo o seguinte comando: npm install bootstrap --save;
   	Passo 03: Adicionar dentro do arquivo angular.json Adicionar a seguinte linha dentro da opção style "./node_modules/bootstrap/dist/css/bootstrap.min.css" e "scripts":  "node_modules/bootstrap/dist/js/bootstrap.min.js";
   	Passo 04: Reiniciar o servidor Angular;
+
+Configuração de uma API Fake com json-server:
+	Passo 01: Acessar a pasta do projeto pelo terminal do node;
+	Passo 02: Executar o comando: npm install -g json-server;
+	Passo 03: Acessar a pasta assets do projeto: cd src/assets;
+	Passo 04: Iniciar a api: json-server --watch db.json (Será gerado o arquivo db.json que será a base da api);
